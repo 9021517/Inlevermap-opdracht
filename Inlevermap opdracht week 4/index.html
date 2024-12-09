@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4 Geld Overschrijven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Geld Overschrijven</h2>
+      
+        <label for="van">Van rekening:</label>
+        <select id="van">
+          <option value="betaalrekening">Betaalrekening (€1500.00)</option>
+          </select>
+      
+        <label for="naar">Naar rekening:</label>
+        <select id="naar">
+          <option value="spaarrekening">Spaarrekening</option>
+        </select>
+      
+        <label for="bedrag">Bedrag:</label>
+        <input type="text" id="bedrag" value="100">
+      
+        <button id="overschrijven">Overschrijven</button>
+      
+        <div id="success" class="success"></div>
+      </div>
+
+      <script src="week4.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background: #f33636; 
+    color: rgb(0, 0, 0);        
+    padding: 20px;     
+    text-align: center;  
+}
+
+.logo img {
+    max-width: 20px; /* Logo size */
+}
+
+/* Navigation styles */
+nav {
+    background: orange; 
+}
+
+nav ul {
+    list-style: none; 
+    display: flex;    
+    justify-content: center; 
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    padding: 8px 16px; 
+    transition: background 0.3s; 
+}
+
+nav ul li a:hover {
+    background: lightcoral; 
+}
+
+/* Main content styles */
+main {
+    padding: 20px; 
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0; 
+    background: #ffbf59; 
+    color: rgb(8, 7, 7); 
+}
+
+  /* Stijl voor de section */
+  #home {
+    text-align: center; /* Centreer de tekst */
+    padding: 20px;
+}
+
+/* Stijl voor de afbeelding */
+#home img {
+    max-width: 100%; /* Zorg ervoor dat de afbeelding niet breder is dan de container */
+    height: auto; /* Behoud de verhoudingen van de afbeelding */
+    margin-bottom: 20px; /* Voeg ruimte toe onder de afbeelding */
+}
+
+ /* Stijl voor de section */
+ #accounts {
+    text-align: center; 
+    padding: 20px;
+}
+
+/* Stijl voor de afbeelding */
+#accounts img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 20px; 
+}
+
+/* Stijl voor de section */
+#schrijving {
+    text-align: center; 
+    padding: 20px;
+}
+
+/* Stijl voor de afbeelding */
+#schrijving img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 20px; 
+}
+
+
+
+#crypto {
+    text-align: center; 
+    padding: 20px;
+}
+
+#crypto img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 20px; 
+}

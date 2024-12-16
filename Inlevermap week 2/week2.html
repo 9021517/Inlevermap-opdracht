@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 2</title>
+    <link rel="stylesheet" href="week2.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Inloggen</h1>
+        <form onsubmit="handleLogin(event)">
+            <label for="username">Gebruikersnaam:</label>
+            <input type="text" id="username" name="user" required>
+
+            <label for="password">Wachtwoord:</label>
+            <input type="password" id="password" name="pass" required>
+
+            <button type="submit">Inloggen</button>
+        </form>
+    </div>
+    <script src="week2.js"></script>
+</body>
+</html>

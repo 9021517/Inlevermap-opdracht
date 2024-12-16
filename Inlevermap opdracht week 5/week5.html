@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Transactiegeschiedenis</h1>
+        <div class="filters">
+          <label for="typeFilter">Filter op type:</label>
+          <select id="typeFilter">
+            <option value="alle">Alle</option>
+            <option value="inkomend">Inkomend</option>
+            <option value="uitgaand">Uitgaand</option>
+          </select>
+    
+          <label for="dateFilter">Filter op datum:</label>
+          <input type="date" id="dateFilter">
+    
+          <button id="filterButton">Filteren</button>
+        </div>
+
+        <div id="transactionList">
+        </div>
+      </div>
+    
+      <script src="java.js"></script>
+</body>
+</html>
